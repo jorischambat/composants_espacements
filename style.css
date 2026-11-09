@@ -1,0 +1,50 @@
+:root {
+  --primary: #000000;
+  --secondary: #ffffff;
+  --background: #ffffff;
+  --text: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background);
+  color: var(--text);
+  line-height: 21px;
+}
+
+/* FONT */
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h2 {
+  font-size: 42px;
+  line-height: 42px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  color: var(--primary);
+
+}
+
+h3 {
+   font-size: 26px;
+  line-height: 42px;
+  margin-bottom: 16px;
+  color: var(--primary);
+
+}
+
+p {
+  margin-bottom: 8px;
+}
+
